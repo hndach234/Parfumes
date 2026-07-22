@@ -3,14 +3,20 @@
 import React, { useState, use } from 'react';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
-import { getPerfumeById, getPerfumesByBrand } from '@/lib/data';
+import { getPerfumeById, getPerfumesByBrand, perfumes } from '@/lib/data';
 import Breadcrumb from '@/components/layout/Breadcrumb';
 import ProductCard from '@/components/ui/ProductCard';
 import { formatPrice } from '@/lib/utils';
 import { useCart } from '@/context/CartContext';
 import { useWishlist } from '@/context/WishlistContext';
-import { Star, ShoppingBag, Heart, ShieldCheck, Truck, Gift, Check, Sparkles, ArrowLeft } from 'lucide-react';
+import { Star, ShoppingBag, Heart, ShieldCheck, Truck, Gift, Check, ArrowLeft } from 'lucide-react';
 import confetti from 'canvas-confetti';
+
+export function generateStaticParams() {
+  return perfumes.map((p) => ({
+    id: p.id,
+  }));
+}
 
 export default function ProductDetailPage({ params }: { params: Promise<{ id: string }> }) {
   const resolvedParams = use(params);
@@ -286,7 +292,7 @@ export default function ProductDetailPage({ params }: { params: Promise<{ id: st
               </div>
               <div className="flex items-center gap-1.5">
                 <Gift className="w-4 h-4 text-[#D4AF37]" />
-                <span>3 Échantillons Offerst</span>
+                <span>3 Échantillons Offerts</span>
               </div>
             </div>
           </div>
