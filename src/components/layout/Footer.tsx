@@ -2,7 +2,21 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
-import { Mail, Phone, MapPin, Instagram, Facebook, Send, CheckCircle2, ShieldCheck, Truck, Gift, Clock } from 'lucide-react';
+import { Mail, Phone, MapPin, Send, CheckCircle2, ShieldCheck, Truck, Gift, Clock } from 'lucide-react';
+
+const InstagramIcon = (props: React.SVGProps<SVGSVGElement>) => (
+  <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" {...props}>
+    <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+    <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+  </svg>
+);
+
+const FacebookIcon = (props: React.SVGProps<SVGSVGElement>) => (
+  <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" {...props}>
+    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+  </svg>
+);
 
 export default function Footer() {
   const [email, setEmail] = useState('');
@@ -49,7 +63,7 @@ export default function Footer() {
             <Gift className="w-6 h-6" />
           </div>
           <div>
-            <h4 className="font-semibold text-sm uppercase tracking-wider text-white">Écrin & Échantillons</h4>
+            <h4 className="font-semibold text-sm uppercase tracking-wider text-white">Écrin &amp; Échantillons</h4>
             <p className="text-xs text-neutral-400">3 échantillons rares inclus</p>
           </div>
         </div>
@@ -90,7 +104,7 @@ export default function Footer() {
               className="w-9 h-9 rounded-full bg-neutral-900 border border-neutral-800 flex items-center justify-center text-neutral-400 hover:text-[#D4AF37] hover:border-[#D4AF37] transition-all"
               aria-label="Instagram"
             >
-              <Instagram className="w-4 h-4" />
+              <InstagramIcon className="w-4 h-4" />
             </a>
             <a
               href="https://facebook.com"
@@ -99,7 +113,7 @@ export default function Footer() {
               className="w-9 h-9 rounded-full bg-neutral-900 border border-neutral-800 flex items-center justify-center text-neutral-400 hover:text-[#D4AF37] hover:border-[#D4AF37] transition-all"
               aria-label="Facebook"
             >
-              <Facebook className="w-4 h-4" />
+              <FacebookIcon className="w-4 h-4" />
             </a>
           </div>
         </div>
@@ -116,7 +130,7 @@ export default function Footer() {
             <li><Link href="/collections" className="hover:text-[#D4AF37] transition-colors">Collections Thématiques</Link></li>
             <li><Link href="/a-propos" className="hover:text-[#D4AF37] transition-colors">À Propos de Nous</Link></li>
             <li><Link href="/galerie" className="hover:text-[#D4AF37] transition-colors">Galerie Photo</Link></li>
-            <li><Link href="/contact" className="hover:text-[#D4AF37] transition-colors">Contact & Conciergerie</Link></li>
+            <li><Link href="/contact" className="hover:text-[#D4AF37] transition-colors">Contact &amp; Conciergerie</Link></li>
           </ul>
         </div>
 
@@ -178,7 +192,7 @@ export default function Footer() {
                 </button>
               </div>
               <span className="text-[10px] text-neutral-500 block">
-                Vos données sont strictement confidentielles.
+                Vos données sont strictly confidentielles.
               </span>
             </form>
           )}
