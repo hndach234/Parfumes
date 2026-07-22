@@ -1,0 +1,92 @@
+[
+  {
+    "id": "faq-1",
+    "category": "Authenticité & Garantie",
+    "question": "Vos parfums sont-ils 100% authentiques et d'origine certifiée ?",
+    "answer": "Absolument. Toutes nos fragrances proviennent directement des maisons de haute parfumerie officielles (Dior, Chanel, Tom Ford, Creed...). Chaque flacon possède son numéro de lot gravé et son scellé d'origine garantissant sa traçabilité et son authenticité totale."
+  },
+  {
+    "id": "faq-2",
+    "category": "Authenticité & Garantie",
+    "question": "Comment conservez-vous les flacons dans vos ateliers ?",
+    "answer": "Nos flacons sont conservés dans une cave à parfums régulée en température (14°C) et à l'abri de l'humidité et de la lumière ultraviolette afin de préserver la fraîcheur optimale des huiles essentielles rares et des absolus de fleurs."
+  },
+  {
+    "id": "faq-3",
+    "category": "Livraison & Écrin",
+    "question": "Quels sont les délais et modes de livraison proposées ?",
+    "answer": "Nous proposons la livraison express sécurisée par Chronopost sous 24h à 48h ouvrées en France métropolitaine et Monaco, ainsi que la livraison DHL Express sous 48h à 72h dans toute l'Europe et le reste du monde. La livraison est offerte à partir de 150 € d'achats."
+  },
+  {
+    "id": "faq-4",
+    "category": "Livraison & Écrin",
+    "question": "Le coffret cadeau et le message personnalisé sont-ils inclus ?",
+    "answer": "Oui, chaque commande est préparée comme une œuvre d'art dans notre écrin signature noir et or garni de papier de soie parfumant. Vous pouvez ajouter gratuitement un message personnalisé calligraphié à la main sur une carte dorée à l'or chaud."
+  },
+  {
+    "id": "faq-5",
+    "category": "Livraison & Écrin",
+    "question": "Puis-je faire livrer directement à un destinataire cadeau ?",
+    "answer": "Tout à fait. Lors de la commande, renseignez simplement l'adresse de livraison du destinataire. La facture sera masquée dans le colis et disponible uniquement sous format électronique dans votre compte."
+  },
+  {
+    "id": "faq-6",
+    "category": "Échantillons & Découverte",
+    "question": "Recevrai-je des échantillons avec ma commande ?",
+    "answer": "Pour chaque flacon commandé, nous joignons gratuitement 3 échantillons de 2ml d'extraits de parfum de niche assortis, sélectionnés selon vos préférences olfactives."
+  },
+  {
+    "id": "faq-7",
+    "category": "Échantillons & Découverte",
+    "question": "Que signifie le concept 'Essayer Avant de Conserver' ?",
+    "answer": "Pour les flacons grand format, nous joignons un échantillon de 2ml du même parfum. Vous pouvez tester l'échantillon sur votre peau pendant 48h. Si la fragrance ne vous convient pas, vous nous renvoyez le grand flacon scellé et nous vous remboursons à 100%."
+  },
+  {
+    "id": "faq-8",
+    "category": "Commandes & Paiement",
+    "question": "Quels moyens de paiement sécurisés acceptez-vous ?",
+    "answer": "Nous acceptons les cartes Visa, MasterCard, American Express, Apple Pay, Google Pay, ainsi que le paiement échelonné en 3x ou 4x sans frais par Alma pour les achats de prestige."
+  },
+  {
+    "id": "faq-9",
+    "category": "Commandes & Paiement",
+    "question": "Les transactions sont-elles entièrement sécurisées ?",
+    "answer": "Toutes vos données financières sont cryptées via le protocole SSL 256 bits conforme aux exigences bancaires internationales de sécurité PCI-DSS Level 1."
+  },
+  {
+    "id": "faq-10",
+    "category": "Service Client & Conciergerie",
+    "question": "Comment contacter la Conciergerie Olfactive ?",
+    "answer": "Nos experts parfumeurs sont disponibles du lundi au samedi de 9h à 20h par téléphone au +33 1 42 68 00 00, via WhatsApp direct, ou par e-mail à conciergerie@lartduparfum-luxe.com."
+  },
+  {
+    "id": "faq-11",
+    "category": "Service Client & Conciergerie",
+    "question": "Proposez-vous une consultation olfactive personnalisée à distance ?",
+    "answer": "Oui, nous organisons des consultations virtuelles de 20 minutes par visioconférence avec un sommelier du parfum afin de déterminer votre signature olfactive sur-mesure."
+  },
+  {
+    "id": "faq-12",
+    "category": "Retours & Échanges",
+    "question": "Quelle est votre politique de retour et d'échange ?",
+    "answer": "Vous disposez de 30 jours à compter de la réception pour nous retourner gratuitement tout produit intact dans son emballage d'origine scellé. Les frais de retour sont intégralement pris en charge par notre maison."
+  },
+  {
+    "id": "faq-13",
+    "category": "Retours & Échanges",
+    "question": "Sous quel délai s'effectue le remboursement ?",
+    "answer": "Le remboursement est crédité directement sur le moyen de paiement utilisé lors de l'achat sous 3 à 5 jours ouvrés dès réception et contrôle de votre retour en atelier."
+  },
+  {
+    "id": "faq-14",
+    "category": "Conseils d'Application",
+    "question": "Comment optimiser la tenue de mon parfum toute la journée ?",
+    "answer": "Vaporisez le parfum sur les points de pulsation où la chaleur corporelle est plus élevée : les poignets, le creux du cou, derrière les oreilles et sur le torse. Ne frottez jamais vos poignets pour ne pas briser les molécules olfactives."
+  },
+  {
+    "id": "faq-15",
+    "category": "Conseils d'Application",
+    "question": "Quelle est la différence entre une Eau de Toilette, une Eau de Parfum et un Extrait ?",
+    "answer": "La différence réside dans la concentration en huiles parfumées : l'Eau de Toilette contient 8 à 15%, l'Eau de Parfum 15 à 22%, et l'Extrait de Parfum 25 à 40%. L'Extrait offre un sillage plus intense et une tenue inégalée."
+  }
+]

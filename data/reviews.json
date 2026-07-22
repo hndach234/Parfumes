@@ -1,0 +1,222 @@
+[
+  {
+    "id": "rev-1",
+    "perfumeId": "sauvage-elixir",
+    "perfumeName": "Dior Sauvage Elixir",
+    "author": "Alexandre de Montmirail",
+    "location": "Paris, France",
+    "rating": 5,
+    "date": "14 Juillet 2026",
+    "comment": "Un sillage hors du commun. Sauvage Elixir est tout simplement magistral. La tenue sur veste dépasse les 48 heures. Reçu dans un coffret d'une élégance rare.",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80"
+  },
+  {
+    "id": "rev-2",
+    "perfumeId": "bleu-de-chanel",
+    "perfumeName": "Bleu de Chanel Parfum",
+    "author": "Jean-Baptiste R.",
+    "location": "Genève, Suisse",
+    "rating": 5,
+    "date": "02 Juin 2026",
+    "comment": "La quintessence du chic masculin. Ce parfum possède une fraîcheur raffinée au départ qui évolue vers un bois de santal divin. Livraison impeccable et rapide.",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&q=80"
+  },
+  {
+    "id": "rev-3",
+    "perfumeId": "baccarat-rouge-540",
+    "perfumeName": "Baccarat Rouge 540 Extrait",
+    "author": "Camille de la Tour",
+    "location": "Monaco",
+    "rating": 5,
+    "date": "28 Mai 2026",
+    "comment": "Un chef-d'œuvre absolu de Francis Kurkdjian. L'accord ambre rouge et safran est littéralement magique. On me demande le nom de mon parfum à chaque soirée.",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80"
+  },
+  {
+    "id": "rev-4",
+    "perfumeId": "creed-aventus",
+    "perfumeName": "Creed Aventus",
+    "author": "Marc-Antoine V.",
+    "location": "Bordeaux, France",
+    "rating": 5,
+    "date": "19 Mai 2026",
+    "comment": "L'empereur des parfums. Les notes de ananas fumé et de bouleau de la récolte 2025 sont d'une perfection incroyable. Service client d'exception.",
+    "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=150&q=80"
+  },
+  {
+    "id": "rev-5",
+    "perfumeId": "tom-ford-oud-wood",
+    "perfumeName": "Tom Ford Oud Wood",
+    "author": "Sophie D.",
+    "location": "Bruxelles, Belgique",
+    "rating": 5,
+    "date": "10 Avril 2026",
+    "comment": "Acheté pour mon époux mais je lui emprunte régulièrement. Un oud tellement doux, fumé et enveloppant. Une signature olfactive de grand luxe.",
+    "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=150&q=80"
+  },
+  {
+    "id": "rev-6",
+    "perfumeId": "ysl-libre-le-parfum",
+    "perfumeName": "YSL Libre Le Parfum",
+    "author": "Éléonore B.",
+    "location": "Lyon, France",
+    "rating": 5,
+    "date": "04 Avril 2026",
+    "comment": "La lavande safranée est envoûtante. La bouteille est un bijou de couture avec le cassandre doré. L'emballage était digne des plus grands palaces.",
+    "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=150&q=80"
+  },
+  {
+    "id": "rev-7",
+    "perfumeId": "black-orchid",
+    "perfumeName": "Tom Ford Black Orchid",
+    "author": "Isabelle Mercier",
+    "location": "Lausanne, Suisse",
+    "rating": 5,
+    "date": "22 Mars 2026",
+    "comment": "Sombre, mystérieux, voluptueux. C'est mon parfum de signature depuis 3 ans. La version Parfum offre une profondeur d'orchidée noire fabuleuse.",
+    "avatar": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=150&q=80"
+  },
+  {
+    "id": "rev-8",
+    "perfumeId": "acqua-di-gio-parfum",
+    "perfumeName": "Armani Acqua Di Giò Parfum",
+    "author": "Nicolas L.",
+    "location": "Nice, France",
+    "rating": 5,
+    "date": "15 Mars 2026",
+    "comment": "La fraîcheur méditerranéenne poussée à son paroxysme avec un encens marin d'une classe folle. Parfait pour les journées ensoleillées.",
+    "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=150&q=80"
+  },
+  {
+    "id": "rev-9",
+    "perfumeId": "coco-mademoiselle",
+    "perfumeName": "Chanel Coco Mademoiselle Intense",
+    "author": "Charlotte G.",
+    "location": "Paris, France",
+    "rating": 5,
+    "date": "01 Mars 2026",
+    "comment": "Une merveille d'élégance à la française. Le patchouli et l'orange s'accordent avec harmonie. Merci pour les échantillons offerts !",
+    "avatar": "https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?auto=format&fit=crop&w=150&q=80"
+  },
+  {
+    "id": "rev-10",
+    "perfumeId": "1-million-elixir",
+    "perfumeName": "Paco Rabanne 1 Million Elixir",
+    "author": "Damien P.",
+    "location": "Toulouse, France",
+    "rating": 5,
+    "date": "18 Février 2026",
+    "comment": "Un concentré de séduction. La fève tonka et la pomme confite donnent une puissance exceptionnelle. Flacon lingot or magnifique.",
+    "avatar": "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=150&q=80"
+  },
+  {
+    "id": "rev-11",
+    "perfumeId": "jadore-l-or",
+    "perfumeName": "Dior J'adore l'Or",
+    "author": "Marie-Claire D.",
+    "location": "Cannes, France",
+    "rating": 5,
+    "date": "10 Février 2026",
+    "comment": "Francis Kurkdjian a réinventé J'adore avec un nectar pur de fleur d'oranger et de rose. Un bijou liquide à posséder absolument.",
+    "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=150&q=80"
+  },
+  {
+    "id": "rev-12",
+    "perfumeId": "guerlain-shalimar",
+    "perfumeName": "Guerlain Shalimar Extrait",
+    "author": "Geneviève H.",
+    "location": "Strasbourg, France",
+    "rating": 5,
+    "date": "29 Janvier 2026",
+    "comment": "Le temple de la parfumerie orientale. Rien n'égale la vanille fumée et la bergamote de Shalimar. Emballage de sécurité parfait.",
+    "avatar": "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?auto=format&fit=crop&w=150&q=80"
+  },
+  {
+    "id": "rev-13",
+    "perfumeId": "versace-eros-parfum",
+    "perfumeName": "Versace Eros Parfum",
+    "author": "Julien F.",
+    "location": "Marseille, France",
+    "rating": 5,
+    "date": "14 Janvier 2026",
+    "comment": "Intense, mentholé et vanillé. Le flacon bleu et or sculpté est sublime. Expédition reçue le lendemain en Chronopost.",
+    "avatar": "https://images.unsplash.com/photo-1501196354995-cbb51c65aaea?auto=format&fit=crop&w=150&q=80"
+  },
+  {
+    "id": "rev-14",
+    "perfumeId": "jpg-le-male-elixir",
+    "perfumeName": "JPG Le Male Elixir",
+    "author": "Guillaume B.",
+    "location": "Lille, France",
+    "rating": 5,
+    "date": "05 Janvier 2026",
+    "comment": "Une lavande dorée miel et fève tonka incroyablement gourmande. Sillage de folie pour l'hiver.",
+    "avatar": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=150&q=80"
+  },
+  {
+    "id": "rev-15",
+    "perfumeId": "la-vie-est-belle",
+    "perfumeName": "Lancôme La Vie Est Belle Extraordinaire",
+    "author": "Valérie C.",
+    "location": "Nantes, France",
+    "rating": 5,
+    "date": "20 Décembre 2025",
+    "comment": "Le sourire de cristal revisité avec un iris d'une douceur sublime. Parfait pour les fêtes de fin d'année.",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=150&q=80"
+  },
+  {
+    "id": "rev-16",
+    "perfumeId": "terre-d-hermes",
+    "perfumeName": "Hermès Terre d'Hermès Parfum",
+    "author": "Charles-Edouard N.",
+    "location": "Geneve, Suisse",
+    "rating": 5,
+    "date": "12 Décembre 2025",
+    "comment": "Minéral, pamplemousse et cèdre. La version Parfum apporte une tenue remarquable toute la journée au bureau.",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80"
+  },
+  {
+    "id": "rev-17",
+    "perfumeId": "tobacco-vanille",
+    "perfumeName": "Tom Ford Tobacco Vanille",
+    "author": "Adrien K.",
+    "location": "Luxembourg",
+    "rating": 5,
+    "date": "03 Décembre 2025",
+    "comment": "Un club d'esthètes londoniens mis en flacon. Le tabac blond et la vanille bourbon s'équilibrent magistralement.",
+    "avatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=150&q=80"
+  },
+  {
+    "id": "rev-18",
+    "perfumeId": "good-girl-supreme",
+    "perfumeName": "Carolina Herrera Good Girl Suprême",
+    "author": "Audrey M.",
+    "location": "Montpellier, France",
+    "rating": 5,
+    "date": "25 Novembre 2025",
+    "comment": "Le talon aiguille légendaire avec des baies gourmandes et de la fève tonka intense. Livraison et service 5 étoiles.",
+    "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=150&q=80"
+  },
+  {
+    "id": "rev-19",
+    "perfumeId": "stronger-with-you",
+    "perfumeName": "Armani Stronger With You Absolutely",
+    "author": "Romain T.",
+    "location": "Bordeaux, France",
+    "rating": 5,
+    "date": "14 Novembre 2025",
+    "comment": "La note de rhum et de marron glacé est tout simplement addictive. Idéal pour les sorties en soirée.",
+    "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=150&q=80"
+  },
+  {
+    "id": "rev-20",
+    "perfumeId": "dior-homme-intense",
+    "perfumeName": "Dior Homme Intense",
+    "author": "Thierry V.",
+    "location": "Paris, France",
+    "rating": 5,
+    "date": "01 Novembre 2025",
+    "comment": "L'iris le plus noble et poudré de la parfumerie masculine. Un véritable chef-d'œuvre à l'élégance inégalée.",
+    "avatar": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=150&q=80"
+  }
+]

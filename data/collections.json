@@ -1,0 +1,58 @@
+[
+  {
+    "id": "collection-homme",
+    "title": "Collection Homme",
+    "slug": "collection-homme",
+    "subtitle": "Force, Distinction & Caractère",
+    "description": "Une sélection magistrale de jus masculins alliant bois sombres, épices vibrantes et notes marines ambrées.",
+    "image": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1000&q=80"
+  },
+  {
+    "id": "collection-femme",
+    "title": "Collection Femme",
+    "slug": "collection-femme",
+    "subtitle": "Grâce, Élégance & Sensualité",
+    "description": "Des compositions d'une grâce absolue où les roses de Grasse rencontrent le jasmin sambac et les vanilles précieuses.",
+    "image": "https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=1000&q=80"
+  },
+  {
+    "id": "collection-unisexe",
+    "title": "Collection Unisexe",
+    "slug": "collection-unisexe",
+    "subtitle": "Haute Parfumerie Sans Frontières",
+    "description": "Des jus rares et avant-gardistes créés pour s'exprimer sur chaque peau avec une singularité envoûtante.",
+    "image": "https://images.unsplash.com/photo-1547887537-6158d64c35b3?auto=format&fit=crop&w=1000&q=80"
+  },
+  {
+    "id": "collection-luxe",
+    "title": "Collection Luxe & Niche",
+    "slug": "collection-luxe",
+    "subtitle": "L'Excellence des Ingrédients Nobles",
+    "description": "Extraits rares, élixirs intenses et nectars d'Orpin précieux réservés aux vrais connaisseurs.",
+    "image": "https://images.unsplash.com/photo-1615397349754-cfa2066a298e?auto=format&fit=crop&w=1000&q=80"
+  },
+  {
+    "id": "collection-orientale",
+    "title": "Collection Orientale",
+    "slug": "collection-orientale",
+    "subtitle": "Ambre, Oud & Épices Rares",
+    "description": "Voyage olfactif au cœur des Mille et Une Nuits : bois d'oud millénaire, résines d'encens et safran doré.",
+    "image": "https://images.unsplash.com/photo-1588405748880-12d1d2a59f75?auto=format&fit=crop&w=1000&q=80"
+  },
+  {
+    "id": "collection-florale",
+    "title": "Collection Florale",
+    "slug": "collection-florale",
+    "subtitle": "Jardin Secret & Bouquet d'Exception",
+    "description": "Fleurs fraîches cueillies à l'aube : néroli de Tunisie, fleur d'oranger et iris de Florence.",
+    "image": "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=1000&q=80"
+  },
+  {
+    "id": "collection-boisee",
+    "title": "Collection Boisée",
+    "slug": "collection-boisee",
+    "subtitle": "Cèdre, Santal & Vétiver d'Haïti",
+    "description": "Sensualité texturée de santal de Mysore, cèdre de l'Atlas et vétiver fumé.",
+    "image": "https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?auto=format&fit=crop&w=1000&q=80"
+  }
+]

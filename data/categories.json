@@ -1,0 +1,50 @@
+[
+  {
+    "id": "homme",
+    "name": "Homme",
+    "slug": "homme",
+    "description": "Fragrances puissantes, boisées, cuirées et charismatiques sculptées pour les hommes raffinés d'aujourd'hui.",
+    "count": 14,
+    "image": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "femme",
+    "name": "Femme",
+    "slug": "femme",
+    "description": "Créations florales d'exception, nectars envoûtants et sillages solaires célébrant la féminité absolue.",
+    "count": 14,
+    "image": "https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "unisexe",
+    "name": "Unisexe",
+    "slug": "unisexe",
+    "description": "Senteurs rares, accords de niche et alchimies ambrées conçus pour transcender les genres.",
+    "count": 12,
+    "image": "https://images.unsplash.com/photo-1547887537-6158d64c35b3?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "coffrets",
+    "name": "Coffrets",
+    "slug": "coffrets",
+    "description": "Écrins d'exception assemblant flacon emblématique, gel douche perfumé et vaporisateur de voyage.",
+    "count": 8,
+    "image": "https://images.unsplash.com/photo-1588405748880-12d1d2a59f75?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "nouveautes",
+    "name": "Nouveautés",
+    "slug": "nouveautes",
+    "description": "Les toutes dernières créations et reformulations exclusives issues des grands ateliers de haute parfumerie.",
+    "count": 10,
+    "image": "https://images.unsplash.com/photo-1615397349754-cfa2066a298e?auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    "id": "editions-limitees",
+    "name": "Éditions Limitées",
+    "slug": "editions-limitees",
+    "description": "Flacons d'art, jus millésimés et concentrés rares numérotés pour collectionneurs avisés.",
+    "count": 6,
+    "image": "https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?auto=format&fit=crop&w=800&q=80"
+  }
+]

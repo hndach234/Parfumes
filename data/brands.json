@@ -1,0 +1,122 @@
+[
+  {
+    "id": "dior",
+    "name": "Dior",
+    "fullName": "Parfums Christian Dior",
+    "origin": "Paris, France",
+    "foundationYear": 1946,
+    "description": "Synonyme d'élégance parisienne ultime et de savoir-faire d'exception. Depuis 1946, Christian Dior sublime la haute parfumerie avec des créations légendaires.",
+    "history": "Inaugurée en 1947 avec le mythique Miss Dior, la Maison Christian Dior incarna la révolution du New Look. Chaque fragrance Dior est un chef-d'œuvre élaboré à partir des ingrédients les plus nobles de Grasse et du monde entier.",
+    "logo": "https://images.unsplash.com/photo-1541643600914-78b084683601?auto=format&fit=crop&w=400&q=80",
+    "image": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1200&q=80",
+    "popularPerfumes": ["Dior Sauvage Elixir", "J'adore Eau de Parfum", "Dior Homme Intense", "Gris Dior Private Collection"]
+  },
+  {
+    "id": "chanel",
+    "name": "Chanel",
+    "fullName": "Chanel Haute Parfumerie",
+    "origin": "Paris, France",
+    "foundationYear": 1910,
+    "description": "L'intemporel absolu. Des aldéhydes révolutionnaires du N°5 aux notes magnétiques de Bleu de Chanel, la Maison incarne le raffinement français suprême.",
+    "history": "Fondée par Gabrielle Chanel, la maison révolutionne l'art olfactif en 1921 avec N°5, créé par Ernest Beaux. Chanel cultive ses propres champs de fleurs à Grasse pour garantir une qualité d'essence inégalée.",
+    "logo": "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=400&q=80",
+    "image": "https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=1200&q=80",
+    "popularPerfumes": ["Bleu de Chanel Parfum", "Coco Mademoiselle", "Chanel N°5 Eau de Parfum", "Allure Homme Édition Blanche"]
+  },
+  {
+    "id": "tom-ford",
+    "name": "Tom Ford",
+    "fullName": "Tom Ford Beauty & Private Blend",
+    "origin": "New York, États-Unis",
+    "foundationYear": 2005,
+    "description": "L'incarnation de la sensualité contemporaine, de l'opulence et du luxe moderne. La collection Private Blend repousse les limites de la haute parfumerie.",
+    "history": "Lancée en 2006 avec Black Orchid, Tom Ford a réinventé la parfumerie de niche avec sa collection Private Blend, conçue comme un atelier olfactif personnel sans contraintes de genres.",
+    "logo": "https://images.unsplash.com/photo-1615397349754-cfa2066a298e?auto=format&fit=crop&w=400&q=80",
+    "image": "https://images.unsplash.com/photo-1547887537-6158d64c35b3?auto=format&fit=crop&w=1200&q=80",
+    "popularPerfumes": ["Oud Wood Intense", "Black Orchid Parfum", "Tobacco Vanille", "Lost Cherry"]
+  },
+  {
+    "id": "creed",
+    "name": "Creed",
+    "fullName": "House of Creed 1760",
+    "origin": "Londres / Paris",
+    "foundationYear": 1760,
+    "description": "Plus de 260 ans de tradition artisanale au service des cours royales et des esthètes exigeants. Des compositions d'exception infusées à la main.",
+    "history": "Transmise de père en fils depuis 1760, la Maison Creed élabore ses fragrances selon la méthode traditionnelle d'infusion artisanale, sélectionnant des matières premières nobles uniques.",
+    "logo": "https://images.unsplash.com/photo-1588405748880-12d1d2a59f75?auto=format&fit=crop&w=400&q=80",
+    "image": "https://images.unsplash.com/photo-1595425970377-c9703cf48b6d?auto=format&fit=crop&w=1200&q=80",
+    "popularPerfumes": ["Aventus", "Silver Mountain Water", "Green Irish Tweed", "Carmina"]
+  },
+  {
+    "id": "guerlain",
+    "name": "Guerlain",
+    "fullName": "Maison Guerlain 1828",
+    "origin": "Paris, France",
+    "foundationYear": 1828,
+    "description": "Créateur légendaire de plus de 1 100 fragrances. La Guerlinade mythique célèbre la passion des essences rares depuis cinq générations.",
+    "history": "Depuis Pierre-François-Pascal Guerlain en 1828, la maison a offert au monde Shalimar, L'Heure Bleue et Mitsouko. Pionnière de l'art du flaconnage et de la chimie olfactive moderne.",
+    "logo": "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=400&q=80",
+    "image": "https://images.unsplash.com/photo-1616949755610-8c9bbc08f138?auto=format&fit=crop&w=1200&q=80",
+    "popularPerfumes": ["Shalimar Extrait", "L'Homme Idéal Intense", "Mon Guerlain", "Spiritueuse Double Vanille"]
+  },
+  {
+    "id": "yves-saint-laurent",
+    "name": "Yves Saint Laurent",
+    "fullName": "YSL Beauté & Haute Parfumerie",
+    "origin": "Paris, France",
+    "foundationYear": 1961,
+    "description": "Une audace couture vibrante. YSL exprime la liberté absolue et le pouvoir de séduction à travers des nectars intenses et audacieux.",
+    "history": "De l'électrique Opium en 1977 à la révolution florale de Libre, YSL brise les conventions et transforme le parfum en un manifeste de caractère et de liberté.",
+    "logo": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=400&q=80",
+    "image": "https://images.unsplash.com/photo-1508746829417-e6f548d8d6ed?auto=format&fit=crop&w=1200&q=80",
+    "popularPerfumes": ["Libre Le Parfum", "Y Eau de Parfum Intense", "Black Opium Le Parfum", "Tuxedo Vestiaire des Parfums"]
+  },
+  {
+    "id": "giorgio-armani",
+    "name": "Giorgio Armani",
+    "fullName": "Armani Privé & Parfums",
+    "origin": "Milan, Italie",
+    "foundationYear": 1975,
+    "description": "L'élégance italienne intemporelle. Entre la fraîcheur aquatique méditerranéenne d'Acqua Di Giò et les trésors d'Armani Privé.",
+    "history": "Armani transpose le minimalisme luxueux de sa mode masculine et féminine dans des élixirs fluides et charismatiques célébrant la nature et les pierres précieuses.",
+    "logo": "https://images.unsplash.com/photo-1594035910387-fea47794261f?auto=format&fit=crop&w=400&q=80",
+    "image": "https://images.unsplash.com/photo-1519669011783-4eaa95fa1b7d?auto=format&fit=crop&w=1200&q=80",
+    "popularPerfumes": ["Acqua Di Giò Parfum", "Stronger With You Absolutely", "Sì Passione Éclat", "Oud Royal Armani Privé"]
+  },
+  {
+    "id": "paco-rabanne",
+    "name": "Paco Rabanne",
+    "fullName": "Rabanne Parfums Paris",
+    "origin": "Paris, France",
+    "foundationYear": 1966,
+    "description": "Audace architecturale, métaux précieux et séduction magnétique. Des jus provocants et mémorables devenus des icônes mondiales.",
+    "history": "Le couturier visionnaire Paco Rabanne marque la parfumerie avec 1 Million et Invictus, combinant design avant-gardiste et sillage inoubliable.",
+    "logo": "https://images.unsplash.com/photo-1588405748880-12d1d2a59f75?auto=format&fit=crop&w=400&q=80",
+    "image": "https://images.unsplash.com/photo-1528740561666-dc2479dc08ab?auto=format&fit=crop&w=1200&q=80",
+    "popularPerfumes": ["1 Million Elixir", "Invictus Victory Elixir", "Phantom Parfum", "Fame Le Parfum"]
+  },
+  {
+    "id": "versace",
+    "name": "Versace",
+    "fullName": "Versace Parfums Luxe",
+    "origin": "Milan, Italie",
+    "foundationYear": 1978,
+    "description": "Glamour extravagant, mythologie gréco-romaine et sensualité torride. Des parfums solaires et puissants au sillage irrésistible.",
+    "history": "La Maison Versace infuse la mythologie de la Méduse dans ses flacons sculpturaux comme Eros et Dylan Blue, symboles de force et de passion.",
+    "logo": "https://images.unsplash.com/photo-1547887537-6158d64c35b3?auto=format&fit=crop&w=400&q=80",
+    "image": "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?auto=format&fit=crop&w=1200&q=80",
+    "popularPerfumes": ["Eros Parfum", "Dylan Blue Pour Homme", "Crystal Noir", "Bright Crystal Absolu"]
+  },
+  {
+    "id": "jean-paul-gaultier",
+    "name": "Jean Paul Gaultier",
+    "fullName": "Maison Jean Paul Gaultier",
+    "origin": "Paris, France",
+    "foundationYear": 1982,
+    "description": "L'enfant terrible de la mode française. Le célèbre buste emblématique renferme des élixirs ultra-gourmands et provocateurs.",
+    "history": "Depuis Le Male et Classique dans leurs célèbres boîtes de conserve stylisées, JPG crée des chefs-d'œuvre à la signature vanillée et ambrée addictive.",
+    "logo": "https://images.unsplash.com/photo-1615397349754-cfa2066a298e?auto=format&fit=crop&w=400&q=80",
+    "image": "https://images.unsplash.com/photo-1563178406-4cdc2923acbc?auto=format&fit=crop&w=1200&q=80",
+    "popularPerfumes": ["Le Male Elixir", "La Belle Le Parfum", "Scandal Pour Homme", "Divine Eau de Parfum"]
+  }
+]
