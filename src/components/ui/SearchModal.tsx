@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { Search, X, Sparkles, ArrowRight } from 'lucide-react';
 import { perfumes } from '@/lib/data';
 import { formatPrice } from '@/lib/utils';
+import LuxuryImage from './LuxuryImage';
 
 interface SearchModalProps {
   isOpen: boolean;
@@ -57,7 +58,7 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
             type="text"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Rechercher par nom, maison, note olfactive (ex: Sauvage, Oud, Dior, Safran)..."
+            placeholder="Rechercher par nom, maison, note olfactive (ex: TO Khamrah, Sauvage, Oud, Dior, Safran)..."
             autoFocus
             className="w-full bg-transparent text-neutral-900 dark:text-white placeholder-neutral-400 text-sm focus:outline-none"
           />
@@ -89,7 +90,7 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
 
               {/* Suggestions Tag Cloud */}
               <div className="pt-3 flex flex-wrap justify-center gap-2 max-w-md mx-auto">
-                {['Dior Sauvage', 'Bleu de Chanel', 'Creed Aventus', 'Oud Wood', 'Baccarat Rouge 540', 'Vanille', 'Safran'].map(
+                {['TO Khamrah', 'TO Scandal', 'Dior Sauvage', 'Bleu de Chanel', 'Creed Aventus', 'Oud Wood', 'Baccarat Rouge 540', 'Vanille', 'Safran'].map(
                   (tag) => (
                     <button
                       key={tag}
@@ -119,7 +120,7 @@ export default function SearchModal({ isOpen, onClose }: SearchModalProps) {
                   onClick={onClose}
                   className="flex items-center space-x-4 p-2.5 rounded-lg hover:bg-neutral-100 dark:hover:bg-neutral-800 transition-colors group"
                 >
-                  <img
+                  <LuxuryImage
                     src={perfume.images[0]}
                     alt={perfume.name}
                     className="w-12 h-14 object-cover rounded border border-neutral-200 dark:border-neutral-800 shrink-0"

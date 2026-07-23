@@ -3,7 +3,8 @@
 import React from 'react';
 import Link from 'next/link';
 import { brands } from '@/lib/data';
-import { Sparkles, ArrowRight } from 'lucide-react';
+import LuxuryImage from '../ui/LuxuryImage';
+import { ArrowRight } from 'lucide-react';
 
 export default function BrandsSection() {
   return (
@@ -40,11 +41,11 @@ export default function BrandsSection() {
               href={`/boutique?brand=${brand.id}`}
               className="group bg-neutral-50 dark:bg-neutral-900/60 p-6 rounded-xl border border-neutral-200 dark:border-neutral-800 hover:border-[#D4AF37] text-center flex flex-col items-center justify-between space-y-4 transition-all duration-300 hover:shadow-lg"
             >
-              <div className="w-16 h-16 rounded-full overflow-hidden border border-[#D4AF37]/30 p-1 group-hover:scale-110 transition-transform">
-                <img
+              <div className="w-16 h-16 rounded-full overflow-hidden border border-[#D4AF37]/30 p-1 group-hover:scale-110 transition-transform bg-black flex items-center justify-center">
+                <LuxuryImage
                   src={brand.logo}
                   alt={brand.name}
-                  className="w-full h-full object-cover rounded-full"
+                  className="w-full h-full object-contain rounded-full"
                 />
               </div>
 

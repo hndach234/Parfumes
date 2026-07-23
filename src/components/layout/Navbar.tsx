@@ -7,7 +7,7 @@ import { Search, Heart, ShoppingBag, Moon, Sun, Menu, Sparkles } from 'lucide-re
 import { useCart } from '@/context/CartContext';
 import { useWishlist } from '@/context/WishlistContext';
 import { useTheme } from '@/context/ThemeContext';
-import { getAssetPath } from '@/lib/utils';
+import LuxuryImage from '../ui/LuxuryImage';
 import MobileMenu from './MobileMenu';
 import SearchModal from '../ui/SearchModal';
 
@@ -74,8 +74,8 @@ export default function Navbar() {
 
           {/* Official Brand Logo */}
           <Link href="/" className="flex items-center space-x-3 group">
-            <img
-              src={getAssetPath('/to-perfumes-logo.png')}
+            <LuxuryImage
+              src="/to-perfumes-logo.png"
               alt="TO PERFUMES Logo"
               className="w-10 h-10 sm:w-12 sm:h-12 object-contain group-hover:scale-105 transition-transform"
             />

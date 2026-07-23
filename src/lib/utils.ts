@@ -13,19 +13,28 @@ export function formatPrice(price: number): string {
   }).format(price);
 }
 
-export function getAssetPath(url: string): string {
-  if (!url) return '';
+export function getAssetPath(url: string | undefined): string {
+  if (!url) return '/to-perfumes-showcase.png';
+  
+  // External URLs
   if (url.startsWith('http://') || url.startsWith('https://')) {
     return url;
   }
-  const cleanUrl = url.startsWith('/') ? url : `/${url}`;
 
-  // If in browser and hosted on GitHub Pages subpath (/Parfumes)
-  if (typeof window !== 'undefined' && window.location.pathname.toLowerCase().includes('/parfumes')) {
-    return `/Parfumes${cleanUrl}`;
+  // Ensure URL starts with /
+  let cleanUrl = url.startsWith('/') ? url : `/${url}`;
+
+  // Prevent double prefixing (/Parfumes/Parfumes/...)
+  if (cleanUrl.toLowerCase().startsWith('/parfumes/')) {
+    cleanUrl = cleanUrl.substring(9);
   }
 
-  // Environment base path if specified
-  const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
-  return `${basePath}${cleanUrl}`;
+  // Check if we are running on GitHub Pages
+  const isGithubPages =
+    (typeof window !== 'undefined' && window.location.pathname.toLowerCase().includes('/parfumes')) ||
+    (typeof process !== 'undefined' && process.env.GITHUB_ACTIONS === 'true');
+
+  const prefix = isGithubPages ? '/Parfumes' : (process.env.NEXT_PUBLIC_BASE_PATH || '');
+
+  return `${prefix}${cleanUrl}`;
 }

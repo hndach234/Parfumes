@@ -4,7 +4,7 @@ import React from 'react';
 import Link from 'next/link';
 import { Sparkles, ArrowRight, CheckCircle2, ShieldCheck, Heart } from 'lucide-react';
 import { perfumes } from '@/lib/data';
-import { getAssetPath } from '@/lib/utils';
+import LuxuryImage from '../ui/LuxuryImage';
 import ProductCard from '../ui/ProductCard';
 
 export default function ToPerfumesShowcase() {
@@ -20,16 +20,16 @@ export default function ToPerfumesShowcase() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center bg-[#171717] rounded-3xl p-8 sm:p-12 border border-[#D4AF37]/40 shadow-2xl">
           {/* Left Column: Image Showcase */}
           <div className="lg:col-span-6 aspect-square rounded-2xl overflow-hidden border border-[#D4AF37]/40 shadow-2xl relative group bg-neutral-900">
-            <img
-              src={getAssetPath('/to-perfumes-showcase.png')}
+            <LuxuryImage
+              src="/to-perfumes-showcase.png"
               alt="TO PERFUMES Collection sur socle en marbre"
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
             <div className="absolute bottom-6 left-6 right-6 flex items-center justify-between">
               <div className="flex items-center space-x-3">
-                <img
-                  src={getAssetPath('/to-perfumes-logo.png')}
+                <LuxuryImage
+                  src="/to-perfumes-logo.png"
                   alt="TO PERFUMES Logo"
                   className="w-12 h-12 rounded-full border border-[#D4AF37] object-contain bg-black/80 p-1"
                 />

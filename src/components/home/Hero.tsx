@@ -3,15 +3,15 @@
 import React from 'react';
 import Link from 'next/link';
 import { Sparkles, ArrowRight, Award } from 'lucide-react';
-import { getAssetPath } from '@/lib/utils';
+import LuxuryImage from '../ui/LuxuryImage';
 
 export default function Hero() {
   return (
     <section className="relative min-h-[92vh] flex items-center justify-center overflow-hidden bg-[#0D0D0D] text-white">
       {/* Background Image Showcase */}
       <div className="absolute inset-0 z-0 opacity-35">
-        <img
-          src={getAssetPath('/to-perfumes-showcase.png')}
+        <LuxuryImage
+          src="/to-perfumes-showcase.png"
           alt="TO PERFUMES Collection"
           className="w-full h-full object-cover object-center scale-105 animate-pulse-glow"
         />
@@ -27,8 +27,8 @@ export default function Hero() {
       <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-6 py-16">
         {/* Brand Ornate Logo Header */}
         <div className="inline-flex flex-col items-center space-y-2">
-          <img
-            src={getAssetPath('/to-perfumes-logo.png')}
+          <LuxuryImage
+            src="/to-perfumes-logo.png"
             alt="TO PERFUMES Logo Gold"
             className="w-24 h-24 sm:w-28 sm:h-28 object-contain drop-shadow-[0_0_20px_rgba(212,175,55,0.4)] animate-float"
           />

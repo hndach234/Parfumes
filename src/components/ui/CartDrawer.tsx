@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import { X, Trash2, Plus, Minus, ShoppingBag, Sparkles, CheckCircle2 } from 'lucide-react';
 import { useCart } from '@/context/CartContext';
 import { formatPrice } from '@/lib/utils';
+import LuxuryImage from './LuxuryImage';
 import confetti from 'canvas-confetti';
 
 export default function CartDrawer() {
@@ -109,7 +110,7 @@ export default function CartDrawer() {
                       key={`${item.perfume.id}-${item.selectedVolume}-${idx}`}
                       className="flex space-x-4 border-b border-neutral-100 dark:border-neutral-800 pb-4"
                     >
-                      <img
+                      <LuxuryImage
                         src={item.perfume.images[0]}
                         alt={item.perfume.name}
                         className="w-20 h-24 object-cover rounded border border-neutral-200 dark:border-neutral-800 shrink-0"

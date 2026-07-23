@@ -6,6 +6,7 @@ import { X, Heart, ShoppingBag, Trash2 } from 'lucide-react';
 import { useWishlist } from '@/context/WishlistContext';
 import { useCart } from '@/context/CartContext';
 import { formatPrice } from '@/lib/utils';
+import LuxuryImage from './LuxuryImage';
 
 export default function WishlistDrawer() {
   const { wishlist, toggleWishlist, isWishlistOpen, setIsWishlistOpen } = useWishlist();
@@ -59,7 +60,7 @@ export default function WishlistDrawer() {
                   key={perfume.id}
                   className="flex space-x-4 border-b border-neutral-100 dark:border-neutral-800 pb-4"
                 >
-                  <img
+                  <LuxuryImage
                     src={perfume.images[0]}
                     alt={perfume.name}
                     className="w-20 h-24 object-cover rounded border border-neutral-200 dark:border-neutral-800 shrink-0"

@@ -6,7 +6,8 @@ import { Perfume } from '@/types';
 import { getPerfumesByBrand } from '@/lib/data';
 import Breadcrumb from '@/components/layout/Breadcrumb';
 import ProductCard from '@/components/ui/ProductCard';
-import { formatPrice, getAssetPath } from '@/lib/utils';
+import LuxuryImage from '@/components/ui/LuxuryImage';
+import { formatPrice } from '@/lib/utils';
 import { useCart } from '@/context/CartContext';
 import { useWishlist } from '@/context/WishlistContext';
 import { Star, ShoppingBag, Heart, ShieldCheck, Truck, Gift, Check, ArrowLeft } from 'lucide-react';
@@ -88,8 +89,8 @@ export default function ProductDetailClient({ perfume }: ProductDetailClientProp
           {/* Left Column: Image Gallery */}
           <div className="space-y-4">
             <div className="aspect-[4/5] rounded-xl overflow-hidden bg-neutral-100 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 relative group">
-              <img
-                src={getAssetPath(activeImg)}
+              <LuxuryImage
+                src={activeImg}
                 alt={perfume.name}
                 className="w-full h-full object-cover"
               />
@@ -111,7 +112,7 @@ export default function ProductDetailClient({ perfume }: ProductDetailClientProp
                         : 'border-transparent opacity-60 hover:opacity-100'
                     }`}
                   >
-                    <img src={getAssetPath(img)} alt="" className="w-full h-full object-cover" />
+                    <LuxuryImage src={img} alt="" className="w-full h-full object-cover" />
                   </button>
                 ))}
               </div>

@@ -2,11 +2,12 @@
 
 import React, { useState } from 'react';
 import Link from 'next/link';
-import { X, Star, ShoppingBag, Heart, ShieldCheck, Truck, Sparkles, Check } from 'lucide-react';
+import { X, Star, ShoppingBag, Heart, Check } from 'lucide-react';
 import { Perfume } from '@/types';
 import { formatPrice } from '@/lib/utils';
 import { useCart } from '@/context/CartContext';
 import { useWishlist } from '@/context/WishlistContext';
+import LuxuryImage from './LuxuryImage';
 
 interface ProductQuickViewModalProps {
   perfume: Perfume;
@@ -50,6 +51,8 @@ export default function ProductQuickViewModal({
     setTimeout(() => setAdded(false), 2500);
   };
 
+  const activeImg = perfume.images[selectedImage] || perfume.images[0];
+
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 sm:p-6 overflow-y-auto">
       {/* Backdrop */}
@@ -72,8 +75,8 @@ export default function ProductQuickViewModal({
           {/* Images */}
           <div className="space-y-4">
             <div className="aspect-square rounded-lg overflow-hidden bg-neutral-100 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800">
-              <img
-                src={perfume.images[selectedImage] || perfume.images[0]}
+              <LuxuryImage
+                src={activeImg}
                 alt={perfume.name}
                 className="w-full h-full object-cover"
               />
@@ -92,7 +95,7 @@ export default function ProductQuickViewModal({
                         : 'border-transparent opacity-70 hover:opacity-100'
                     }`}
                   >
-                    <img src={img} alt="" className="w-full h-full object-cover" />
+                    <LuxuryImage src={img} alt="" className="w-full h-full object-cover" />
                   </button>
                 ))}
               </div>
