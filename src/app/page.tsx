@@ -1,5 +1,6 @@
 import React from 'react';
 import Hero from '@/components/home/Hero';
+import ToPerfumesShowcase from '@/components/home/ToPerfumesShowcase';
 import CategoriesSection from '@/components/home/CategoriesSection';
 import BrandsSection from '@/components/home/BrandsSection';
 import ProductsSection from '@/components/home/ProductsSection';
@@ -8,14 +9,15 @@ import ReviewsSlider from '@/components/home/ReviewsSlider';
 import FaqAccordion from '@/components/home/FaqAccordion';
 
 export const metadata = {
-  title: "L'Art du Parfum | Haute Parfumerie & Flacons de Luxe",
-  description: "Boutique d'exception de parfums de luxe pour homme, femme et unisexe. Découvrez Dior, Chanel, Tom Ford, Creed et nos nectars rares.",
+  title: "TO PERFUMES (عطور تعبّر عنك) | Haute Parfumerie & Éditions Inspirées",
+  description: "Découvrez la collection officielle TO PERFUMES (TO Khamrah, TO Scandal, TO My Way, TO Yum, TO Coco Noir, TO Yara, TO Weekend). Des fragrances d'exception pour exprimer votre personnalité.",
 };
 
 export default function HomePage() {
   return (
     <main className="min-h-screen">
       <Hero />
+      <ToPerfumesShowcase />
       <CategoriesSection />
       <BrandsSection />
       <ProductsSection />

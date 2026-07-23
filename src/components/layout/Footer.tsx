@@ -83,16 +83,23 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 mb-12">
         {/* Brand Description */}
         <div className="lg:col-span-2 space-y-4">
-          <Link href="/" className="inline-block">
-            <span className="font-serif-luxury text-2xl font-bold tracking-widest text-[#D4AF37] block">
-              L'ART DU PARFUM
-            </span>
-            <span className="text-[10px] uppercase tracking-[0.3em] text-neutral-400 block mt-0.5">
-              HAUTE PARFUMERIE PARIS
-            </span>
+          <Link href="/" className="flex items-center space-x-3 group">
+            <img
+              src="/to-perfumes-logo.png"
+              alt="TO PERFUMES Logo"
+              className="w-12 h-12 object-contain"
+            />
+            <div className="flex flex-col">
+              <span className="font-serif-luxury text-2xl font-bold tracking-widest text-[#D4AF37] block">
+                TO PERFUMES
+              </span>
+              <span className="text-[11px] uppercase tracking-[0.2em] text-[#D4AF37] block">
+                عطور تعبّر عنك
+              </span>
+            </div>
           </Link>
           <p className="text-xs text-neutral-400 leading-relaxed max-w-sm">
-            Depuis 1994, L'Art du Parfum célèbre les alchimies d'exception et la passion de la haute parfumerie. Découvrez les plus précieux flacons des grandes maisons mondiales.
+            Maison de haute parfumerie créatrice des gammes TO Khamrah, TO Scandal, TO My Way, TO Yum, TO Coco Noir, TO Yara et TO Weekend. Des fragrances conçues pour exprimer votre personnalité.
           </p>
 
           {/* Social Links */}
@@ -125,7 +132,8 @@ export default function Footer() {
           </h3>
           <ul className="space-y-2.5 text-xs text-neutral-400">
             <li><Link href="/" className="hover:text-[#D4AF37] transition-colors">Accueil</Link></li>
-            <li><Link href="/boutique" className="hover:text-[#D4AF37] transition-colors">Boutique</Link></li>
+            <li><Link href="/boutique?brand=to-perfumes" className="hover:text-[#D4AF37] transition-colors">Collection TO PERFUMES</Link></li>
+            <li><Link href="/boutique" className="hover:text-[#D4AF37] transition-colors">Boutique Haute Parfumerie</Link></li>
             <li><Link href="/marques" className="hover:text-[#D4AF37] transition-colors">Nos Grandes Marques</Link></li>
             <li><Link href="/collections" className="hover:text-[#D4AF37] transition-colors">Collections Thématiques</Link></li>
             <li><Link href="/a-propos" className="hover:text-[#D4AF37] transition-colors">À Propos de Nous</Link></li>
@@ -192,7 +200,7 @@ export default function Footer() {
                 </button>
               </div>
               <span className="text-[10px] text-neutral-500 block">
-                Vos données sont strictly confidentielles.
+                Vos données sont strictement confidentielles.
               </span>
             </form>
           )}
@@ -202,7 +210,7 @@ export default function Footer() {
       {/* Bottom Bar */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 border-t border-neutral-900 flex flex-col md:flex-row items-center justify-between text-[11px] text-neutral-500 space-y-4 md:space-y-0">
         <div>
-          © 2026 L'ART DU PARFUM PARIS. Tous droits réservés. Démonstration Client.
+          © 2026 TO PERFUMES (عطور تعبّر عنك). Tous droits réservés. Démonstration Client.
         </div>
         <div className="flex space-x-6">
           <Link href="/contact" className="hover:text-neutral-400 transition-colors">Mentions Légales</Link>

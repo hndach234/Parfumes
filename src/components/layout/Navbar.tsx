@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Search, Heart, ShoppingBag, Moon, Sun, Menu, X, Sparkles } from 'lucide-react';
+import { Search, Heart, ShoppingBag, Moon, Sun, Menu, Sparkles } from 'lucide-react';
 import { useCart } from '@/context/CartContext';
 import { useWishlist } from '@/context/WishlistContext';
 import { useTheme } from '@/context/ThemeContext';
@@ -47,7 +47,7 @@ export default function Navbar() {
       {/* Top Banner */}
       <div className="bg-[#111111] text-[#D4AF37] text-xs py-2 px-4 text-center tracking-widest uppercase font-medium flex items-center justify-center gap-2 border-b border-[#D4AF37]/20 z-50 relative">
         <Sparkles className="w-3.5 h-3.5 animate-pulse" />
-        <span>Livraison Express Offerte dès 150 € • Écrin Cadeau & 3 Échantillons Inclus</span>
+        <span>TO PERFUMES • عطور تعبّر عنك • Livraison Express Offerte dès 150 €</span>
         <Sparkles className="w-3.5 h-3.5 animate-pulse" />
       </div>
 
@@ -55,8 +55,8 @@ export default function Navbar() {
       <header
         className={`sticky top-0 z-40 transition-all duration-300 ${
           isScrolled
-            ? 'bg-white/95 dark:bg-[#111111]/95 backdrop-blur-md shadow-md py-3 border-b border-neutral-200 dark:border-neutral-800'
-            : 'bg-white/80 dark:bg-[#111111]/80 backdrop-blur-sm py-5'
+            ? 'bg-white/95 dark:bg-[#111111]/95 backdrop-blur-md shadow-md py-2 border-b border-neutral-200 dark:border-neutral-800'
+            : 'bg-white/80 dark:bg-[#111111]/80 backdrop-blur-sm py-3'
         }`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex items-center justify-between">
@@ -71,14 +71,21 @@ export default function Navbar() {
             </button>
           </div>
 
-          {/* Logo */}
-          <Link href="/" className="flex flex-col items-center group">
-            <span className="font-serif-luxury text-xl sm:text-2xl font-bold tracking-widest text-[#111111] dark:text-white uppercase transition-colors group-hover:text-[#D4AF37]">
-              L'ART DU PARFUM
-            </span>
-            <span className="text-[9px] uppercase tracking-[0.3em] text-[#D4AF37] font-light">
-              HAUTE PARFUMERIE PARIS
-            </span>
+          {/* Official Brand Logo */}
+          <Link href="/" className="flex items-center space-x-3 group">
+            <img
+              src="/to-perfumes-logo.png"
+              alt="TO PERFUMES Logo"
+              className="w-10 h-10 sm:w-12 sm:h-12 object-contain group-hover:scale-105 transition-transform"
+            />
+            <div className="flex flex-col">
+              <span className="font-serif-luxury text-lg sm:text-2xl font-bold tracking-widest text-[#111111] dark:text-white uppercase transition-colors group-hover:text-[#D4AF37]">
+                TO PERFUMES
+              </span>
+              <span className="text-[10px] uppercase tracking-[0.2em] text-[#D4AF37] font-semibold">
+                عطور تعبّر عنك
+              </span>
+            </div>
           </Link>
 
           {/* Desktop Navigation */}
