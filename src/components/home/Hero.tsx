@@ -3,6 +3,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { Sparkles, ArrowRight, Award } from 'lucide-react';
+import { getAssetPath } from '@/lib/utils';
 
 export default function Hero() {
   return (
@@ -10,7 +11,7 @@ export default function Hero() {
       {/* Background Image Showcase */}
       <div className="absolute inset-0 z-0 opacity-35">
         <img
-          src="/to-perfumes-showcase.png"
+          src={getAssetPath('/to-perfumes-showcase.png')}
           alt="TO PERFUMES Collection"
           className="w-full h-full object-cover object-center scale-105 animate-pulse-glow"
         />
@@ -27,7 +28,7 @@ export default function Hero() {
         {/* Brand Ornate Logo Header */}
         <div className="inline-flex flex-col items-center space-y-2">
           <img
-            src="/to-perfumes-logo.png"
+            src={getAssetPath('/to-perfumes-logo.png')}
             alt="TO PERFUMES Logo Gold"
             className="w-24 h-24 sm:w-28 sm:h-28 object-contain drop-shadow-[0_0_20px_rgba(212,175,55,0.4)] animate-float"
           />

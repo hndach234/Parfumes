@@ -1,11 +1,10 @@
 'use client';
 
 import React, { useState } from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
-import { Heart, Eye, ShoppingBag, Star, Sparkles } from 'lucide-react';
+import { Heart, Eye, ShoppingBag, Star } from 'lucide-react';
 import { Perfume } from '@/types';
-import { formatPrice } from '@/lib/utils';
+import { formatPrice, getAssetPath } from '@/lib/utils';
 import { useCart } from '@/context/CartContext';
 import { useWishlist } from '@/context/WishlistContext';
 import ProductQuickViewModal from './ProductQuickViewModal';
@@ -22,13 +21,15 @@ export default function ProductCard({ perfume }: ProductCardProps) {
 
   const isFavorite = isInWishlist(perfume.id);
 
+  const activeImg = perfume.images[currentImageIndex] || perfume.images[0];
+
   return (
     <>
       <div className="group relative bg-white dark:bg-[#171717] rounded-lg overflow-hidden border border-neutral-200 dark:border-neutral-800 hover:border-[#D4AF37]/60 dark:hover:border-[#D4AF37]/60 transition-all duration-300 shadow-sm hover:shadow-xl flex flex-col justify-between">
         {/* Card Header & Badges */}
         <div className="relative aspect-[4/5] w-full overflow-hidden bg-neutral-100 dark:bg-neutral-900">
           <img
-            src={perfume.images[currentImageIndex] || perfume.images[0]}
+            src={getAssetPath(activeImg)}
             alt={perfume.name}
             className="w-full h-full object-cover object-center group-hover:scale-105 transition-transform duration-700"
             loading="lazy"

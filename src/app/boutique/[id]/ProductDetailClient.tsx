@@ -6,7 +6,7 @@ import { Perfume } from '@/types';
 import { getPerfumesByBrand } from '@/lib/data';
 import Breadcrumb from '@/components/layout/Breadcrumb';
 import ProductCard from '@/components/ui/ProductCard';
-import { formatPrice } from '@/lib/utils';
+import { formatPrice, getAssetPath } from '@/lib/utils';
 import { useCart } from '@/context/CartContext';
 import { useWishlist } from '@/context/WishlistContext';
 import { Star, ShoppingBag, Heart, ShieldCheck, Truck, Gift, Check, ArrowLeft } from 'lucide-react';
@@ -61,6 +61,8 @@ export default function ProductDetailClient({ perfume }: ProductDetailClientProp
     setTimeout(() => setBoughtNow(false), 3500);
   };
 
+  const activeImg = perfume.images[selectedImage] || perfume.images[0];
+
   return (
     <div className="bg-neutral-50 dark:bg-[#111111] min-h-screen pb-20">
       <Breadcrumb
@@ -87,7 +89,7 @@ export default function ProductDetailClient({ perfume }: ProductDetailClientProp
           <div className="space-y-4">
             <div className="aspect-[4/5] rounded-xl overflow-hidden bg-neutral-100 dark:bg-neutral-900 border border-neutral-200 dark:border-neutral-800 relative group">
               <img
-                src={perfume.images[selectedImage] || perfume.images[0]}
+                src={getAssetPath(activeImg)}
                 alt={perfume.name}
                 className="w-full h-full object-cover"
               />
@@ -109,7 +111,7 @@ export default function ProductDetailClient({ perfume }: ProductDetailClientProp
                         : 'border-transparent opacity-60 hover:opacity-100'
                     }`}
                   >
-                    <img src={img} alt="" className="w-full h-full object-cover" />
+                    <img src={getAssetPath(img)} alt="" className="w-full h-full object-cover" />
                   </button>
                 ))}
               </div>

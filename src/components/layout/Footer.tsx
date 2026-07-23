@@ -3,6 +3,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { Mail, Phone, MapPin, Send, CheckCircle2, ShieldCheck, Truck, Gift, Clock } from 'lucide-react';
+import { getAssetPath } from '@/lib/utils';
 
 const InstagramIcon = (props: React.SVGProps<SVGSVGElement>) => (
   <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" strokeWidth="2" fill="none" strokeLinecap="round" strokeLinejoin="round" {...props}>
@@ -85,7 +86,7 @@ export default function Footer() {
         <div className="lg:col-span-2 space-y-4">
           <Link href="/" className="flex items-center space-x-3 group">
             <img
-              src="/to-perfumes-logo.png"
+              src={getAssetPath('/to-perfumes-logo.png')}
               alt="TO PERFUMES Logo"
               className="w-12 h-12 object-contain"
             />
@@ -200,7 +201,7 @@ export default function Footer() {
                 </button>
               </div>
               <span className="text-[10px] text-neutral-500 block">
-                Vos données sont strictement confidentielles.
+                Vos données sont strictly confidentielles.
               </span>
             </form>
           )}

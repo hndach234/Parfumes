@@ -2,11 +2,12 @@ import React from 'react';
 import Link from 'next/link';
 import Breadcrumb from '@/components/layout/Breadcrumb';
 import { brands } from '@/lib/data';
+import { getAssetPath } from '@/lib/utils';
 import { Sparkles, ArrowRight, MapPin, Calendar } from 'lucide-react';
 
 export const metadata = {
-  title: "Nos Grandes Maisons de Parfumerie | L'Art du Parfum",
-  description: "Découvrez l'histoire et le patrimoine d'exception des plus prestigieuses maisons de parfums : Dior, Chanel, Tom Ford, Creed, Guerlain, YSL...",
+  title: "Nos Grandes Maisons de Parfumerie | TO PERFUMES (عطور تعبّر عنك)",
+  description: "Découvrez l'histoire et le patrimoine d'exception des plus prestigieuses maisons de parfums : TO PERFUMES, Dior, Chanel, Tom Ford, Creed, Guerlain, YSL...",
 };
 
 export default function BrandsPage() {
@@ -47,16 +48,16 @@ export default function BrandsPage() {
                 }`}
               >
                 <img
-                  src={brand.image}
+                  src={getAssetPath(brand.image)}
                   alt={brand.fullName}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
                 <div className="absolute bottom-4 left-4 flex items-center space-x-3">
                   <img
-                    src={brand.logo}
+                    src={getAssetPath(brand.logo)}
                     alt=""
-                    className="w-12 h-12 rounded-full border-2 border-[#D4AF37] object-cover bg-white"
+                    className="w-12 h-12 rounded-full border-2 border-[#D4AF37] object-contain bg-black p-1"
                   />
                   <div className="text-white">
                     <span className="font-serif-luxury font-bold text-lg block">{brand.name}</span>
