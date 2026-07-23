@@ -1,6 +1,8 @@
 import { MetadataRoute } from 'next';
 import perfumesData from '../../data/perfumes.json';
 
+export const dynamic = 'force-static';
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://lartduparfum-luxe.com';
 
